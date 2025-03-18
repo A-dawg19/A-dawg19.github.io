@@ -88,6 +88,20 @@ table {
     background-color: #ea8f06;
     border-radius: 9px;
 }
-
-
- 
+.po {
+  font-size: 50px;
+}
+.demain {
+font-style: italic;
+font-weight: bold;
+font-size: 30px;
+}
+.RIP {
+  font-size: 15px;
+}
+.allp {
+  width: 50%;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  border: 5px Solid orange
+}
