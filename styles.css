@@ -1,0 +1,93 @@
+  a {
+  font-weight: bold;
+  }
+  div.Mydic {
+  color: Black;
+  }
+  html {
+  font-family: Verdana;
+  text-align: center;
+  }
+  ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ea8f06;
+  border-radius: 7px;
+}
+  img {
+  border-radius: 100px;
+  Margin : 50px;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #6f5600;
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+ th:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+    .biographie {
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysYIWmaU5_GPNmjlik75Ds0ObIixoHYtjgg&s");
+	background-size:cover;
+	border-radius: 90px;
+	font-size: 30px;
+	box-shadow: 5px 10px 30px black;
+}
+.voyage {
+	background-image:url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/25/1b/44/voyage-yacht-anchored.jpg?w=1200&h=-1&s=1");
+  background-size:cover;
+  border-radius: 90px;
+  font-size: 30px;
+  box-shadow: 5px 10px 30px black;
+}
+.poeme {
+	background-image:url("https://signeteducation.com/wp-content/uploads/2022/02/image-17-scaled.jpg");
+  background-size:cover;
+  border-radius: 90px;
+  font-size: 30px;
+  box-shadow: 5px 10px 30px black;
+}
+table {
+  border-spacing: 40px;
+}
+.biographie2 {
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ea8f06;
+    border-radius: 9px;
+    
+}
+.poeme2 {
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ea8f06;
+    border-radius: 9px;
+}
+.voyage2 {
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ea8f06;
+    border-radius: 9px;
+}
+
+
+ 
