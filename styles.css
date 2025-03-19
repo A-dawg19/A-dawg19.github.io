@@ -235,3 +235,7 @@ a.retour {
   background-color: #ffe1b4;
   transition: 0.3s; /* Effet de transition fluide */
 }
+.mets {
+  text-decoration: none;
+  color: black
+}
