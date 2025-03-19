@@ -1,130 +1,172 @@
- a {
+/* Applique un style gras aux liens */
+a {
   font-weight: bold;
-  }
-  div.Mydic {
+}
+
+/* Style la classe 'Mydic' avec une couleur de texte noire */
+div.Mydic {
   color: Black;
-  }
-  html {
+}
+
+/* Applique la police Verdana et centre le texte pour l'ensemble du document HTML */
+html {
   font-family: Verdana;
   text-align: center;
-  }
-  ul {
-  list-style-type: none;
-  margin: 10;
-  padding: 0;
-  overflow: hidden;
-  background-color: #ea8f06;
-  border-radius: 7px;
 }
+
+/* Personnalisation de la liste ul */
+ul {
+  list-style-type: none; /* Supprime les puces */
+  margin: 10px; /* Espace extérieur */
+  padding: 0; /* Retire l'espace intérieur */
+  overflow: hidden; /* Empêche le débordement */
+  background-color: #ea8f06; /* Fond orange */
+  border-radius: 7px; /* Coins arrondis */
+}
+
+/* Style les éléments li dans la liste en flottant à gauche */
 li {
   float: left;
 }
+
+/* Personnalisation des liens dans les éléments li */
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #6f5600;
-  transform: scale(1.1);
-  transition: 0.7s;
-  border-radius: 11px;
+  display: block; /* Transforme le lien en bloc pour permettre le padding */
+  color: white; /* Texte blanc */
+  text-align: center; /* Centre le texte */
+  padding: 14px 16px; /* Espaces autour du texte */
+  text-decoration: none; /* Supprime le soulignement */
 }
 
-    .biographie {
-	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysYIWmaU5_GPNmjlik75Ds0ObIixoHYtjgg&s");
-	background-size:cover;
-	border-radius: 90px;
-	font-size: 30px;
-	box-shadow: 5px 10px 30px black;
+/* Style au survol d'un lien */
+li a:hover {
+  background-color: #6f5600; /* Fond sombre au survol */
+  transform: scale(1.1); /* Agrandit le lien */
+  transition: 0.7s; /* Animation fluide */
+  border-radius: 11px; /* Coins arrondis au survol */
 }
+
+/* Classe 'biographie' avec une image de fond et un effet d'ombre */
+.biographie {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysYIWmaU5_GPNmjlik75Ds0ObIixoHYtjgg&s");
+  background-size: cover; /* Couvre toute la zone disponible */
+  border-radius: 90px; /* Coins très arrondis */
+  font-size: 30px; /* Taille de police */
+  box-shadow: 5px 10px 30px black; /* Ombre portée */
+}
+
+/* Classe 'voyage' avec une image de fond spécifique */
 .voyage {
-	background-image:url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/25/1b/44/voyage-yacht-anchored.jpg?w=1200&h=-1&s=1");
-  background-size:cover;
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/25/1b/44/voyage-yacht-anchored.jpg?w=1200&h=-1&s=1");
+  background-size: cover;
   border-radius: 90px;
   font-size: 30px;
   box-shadow: 5px 10px 30px black;
 }
+
+/* Classe 'poeme' avec une image de fond spécifique */
 .poeme {
-	background-image:url("https://signeteducation.com/wp-content/uploads/2022/02/image-17-scaled.jpg");
-  background-size:cover;
+  background-image: url("https://signeteducation.com/wp-content/uploads/2022/02/image-17-scaled.jpg");
+  background-size: cover;
   border-radius: 90px;
   font-size: 30px;
   box-shadow: 5px 10px 30px black;
 }
+
+/* Définit l'espacement entre les cellules d'un tableau */
 table {
   border-spacing: 40px;
 }
+
+/* Classe 'biographie2' pour les éléments avec un fond orange, du texte blanc et une bordure arrondie */
 .biographie2 {
-    color: white;
-    padding: 5px 10px;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: #ea8f06;
-    border-radius: 9px;
-    
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #ea8f06;
+  border-radius: 9px;
 }
+
+/* Classe 'poeme2' pour les éléments avec un fond orange, du texte blanc et une bordure arrondie */
 .poeme2 {
-    color: white;
-    padding: 5px 10px;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: #ea8f06;
-    border-radius: 9px;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #ea8f06;
+  border-radius: 9px;
 }
+
+/* Classe 'voyage2' pour les éléments avec un fond orange, du texte blanc et une bordure arrondie */
 .voyage2 {
-    color: white;
-    padding: 5px 10px;
-    font-weight: bold;
-    text-decoration: none;
-    background-color: #ea8f06;
-    border-radius: 9px;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #ea8f06;
+  border-radius: 9px;
 }
+
+/* Style pour le texte dans la classe 'poeme1' */
 .poeme1 {
-  font-size: 50px;
+  font-size: 50px; /* Taille de police grande */
 }
+
+/* Classe 'demain' avec une police en italique et en gras */
 .demain {
-font-style: italic;
-font-weight: bold;
-font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
 }
+
+/* Classe 'RIP' pour un texte plus petit */
 .RIP {
   font-size: 15px;
 }
+
+/* Classe 'allp' pour un conteneur avec une largeur définie, un fond blanc, et une bordure orange */
 .allp {
   width: 30%;
   background-color: #FFFFFF;
   border-radius: 4px;
-  border: 5px solid orange
+  border: 5px solid orange;
 }
+
+/* Classe 'poeme3' avec un espacement entre les lignes */
 .poeme3 {
   line-height: 50px;
 }
+
+/* Style du lien de retour */
 a.retour {
   text-decoration: none;
   color: white;
   width: 30%;
   background-color: orange;
   border-radius: 4px;
-  border: 5px solid orange
+  border: 5px solid orange;
 }
+
+/* Classe 'italie' avec une police cursive, en italique, et en gras */
 .italie {
   font-size: 40px;
   font-style: italic;
   font-family: 'Segoe Script', cursive;
   font-weight: bold;
 }
-.b1 {
-    padding: 5px 10px;
-    background-color: #FFFFFF;
-    border: 5px solid orange;
-    border-radius: 9px;
-    width: 40%;
 
+/* Classe 'b1' pour un bouton ou une boîte avec un fond blanc et une bordure orange */
+.b1 {
+  padding: 5px 10px;
+  background-color: #FFFFFF;
+  border: 5px solid orange;
+  border-radius: 9px;
+  width: 40%;
   font-size: 20px;
 }
+
+/* Classe 'lieux-table' pour les éléments en forme de tableau avec une bordure orange */
 .lieux-table {
   border-radius: 10px;
   border: 5px solid orange;
@@ -132,49 +174,64 @@ a.retour {
   width: 40%;
   font-size: 20px;
 }
+
+/* Classe 'Hugo' pour une section avec une bordure orange et un marger espacé */
 .Hugo {
   border: 5px solid orange;
   border-radius: 10px;
   margin: 40px;
 }
+
+/* Classe 'pitaly' avec une bordure orange et un marger espacé */
 .pitaly {
   border: 5px solid orange;
   border-radius: 10px;
   margin: 40px;
 }
+
+/* Classe 'biotable' pour un tableau avec une largeur et une bordure orange */
 .biotable {
   width: 45%;
   background-color: #FFFFFF;
   border-radius: 29px;
-  border: 5px solid orange
-}
-.skiphoto {
-  border-radius: 13px;
-  border: 5px solid orange
+  border: 5px solid orange;
 }
 
-.styled-table {
-    width: 40%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background-color: #ffb74a;
-    border-radius: 19px;
-    overflow: hidden;
+/* Classe 'skiphoto' pour les images avec une bordure orange */
+.skiphoto {
+  border-radius: 13px;
+  border: 5px solid orange;
 }
+
+/* Classe 'styled-table' pour styliser un tableau */
+.styled-table {
+  width: 40%;
+  margin: 20px auto;
+  border-collapse: collapse; /* Fusionne les bordures des cellules */
+  background-color: #ffb74a;
+  border-radius: 19px;
+  overflow: hidden;
+}
+
+/* Style pour les en-têtes de table */
 .styled-table th {
-    background-color: #ea8f06;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 18px;
-} /* CSS pour le table dans le page Biographie */
+  background-color: #ea8f06;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Style pour les cellules du tableau */
 .styled-table td {
   color: white;
-    padding: 12px;
-    text-align: center;
-    border-bottom: 2px solid #ea8f06;
+  padding: 12px;
+  text-align: center;
+  border-bottom: 2px solid #ea8f06;
 }
+
+/* Effet de survol pour les lignes du tableau */
 .styled-table tr:hover {
-    background-color: #ffe1b4;
-    transition: 0.3s;
+  background-color: #ffe1b4;
+  transition: 0.3s; /* Effet de transition fluide */
 }
