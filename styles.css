@@ -200,7 +200,6 @@ a.retour {
 /* Classe 'skiphoto' pour les images avec une bordure orange */
 .skiphoto {
   border-radius: 13px;
-  border: 5px solid orange;
 }
 
 /* Classe 'styled-table' pour styliser un tableau */
