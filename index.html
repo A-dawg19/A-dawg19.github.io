@@ -1,37 +1,54 @@
 <!DOCTYPE html>
-<html style="background-color: #ffe3a0;>
-  
+<html style="background-color: #ffe3a0;"> <!-- Définit la couleur de fond de la page HTML à une teinte jaune clair -->
+
   <head>
-<style>
-	 th:hover {
-  transform: scale(1.1);
-  transition: 0.7s;
-}	</style>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://a-dawg19.github.io/styles.css">
-    <title>Mon site web</title>
+    <!-- CSS pour appliquer une transformation de mise à l'échelle et un effet de transition au survol des en-têtes de table -->
+    <style>
+      th:hover {
+        transform: scale(1.1); /* Agrandit l'en-tête de table au survol */
+        transition: 0.7s; /* Effet de transition fluide sur 0.7 secondes */
+      }
+    </style>
+
+    <meta charset="UTF-8"> <!-- Spécifie que l'encodage des caractères de la page est UTF-8 -->
+    <link rel="stylesheet" href="https://a-dawg19.github.io/styles.css"> <!-- Lien vers un fichier CSS externe pour le style -->
+    <title>Mon site web</title> <!-- Titre de la page affiché dans l'onglet du navigateur -->
   </head>
+
   <body>
-  <meta charset="UTF-8">
-  <ul>
-  <li><a href="https://a-dawg19.github.io/index.html">Page d’accueil</a></li>
-  <li><a href="https://a-dawg19.github.io/Exercise4.html">Poème</a></li>
-  <li><a href="https://a-dawg19.github.io/Voyage.html">Voyage parfait</a></li>
-  <li><a href="https://a-dawg19.github.io/Biographie.html">Biographie</a></li>
-</ul>
- <! -- https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black -->
-<div class="Mydic">
-      <h1 style="font-size:60px">Anthony Underhill</h1>
-      <p style="font-size:30px">Page d'accueil</p>
-      </div>
-<center>
-    <table>
-     <tr>
-		    <th style="padding:150px" class="poeme"><a href="https://a-dawg19.github.io/Exercise4.html" class="poeme2">Poème</a></th>
-		    <th style="padding:150px" class="voyage"><a href="https://a-dawg19.github.io/Voyage.html" class="voyage2">Voyage</a></th>
-		    <th style="padding:150px" class="biographie"><a href="https://a-dawg19.github.io/Biographie.html" class="biographie2">Biographie</a></th>
-		</tr>
-		</table>
-		</center>
+    <meta charset="UTF-8"> <!-- Déclaration redondante de l'encodage des caractères (peut être supprimée, car déjà défini dans <head>) -->
+    
+    <!-- Barre de navigation avec des liens vers différentes pages du site -->
+    <ul>
+      <li><a href="https://a-dawg19.github.io/index.html">Page d’accueil</a></li> <!-- Lien vers la page d'accueil -->
+      <li><a href="https://a-dawg19.github.io/Exercise4.html">Poème</a></li> <!-- Lien vers la page Poème -->
+      <li><a href="https://a-dawg19.github.io/Voyage.html">Voyage parfait</a></li> <!-- Lien vers la page Voyage parfait -->
+      <li><a href="https://a-dawg19.github.io/Biographie.html">Biographie</a></li> <!-- Lien vers la page Biographie -->
+    </ul>
+
+    <!-- Le div 'Mydic' contient le titre et la description de la page -->
+    <div class="Mydic">
+      <h1 style="font-size:60px">Anthony Underhill</h1> <!-- Titre principal avec le nom de la personne, avec une taille de police grande -->
+      <p style="font-size:30px">Page d'accueil</p> <!-- Paragraphe décrivant la page comme étant la page d'accueil, avec une taille de police moyenne -->
+    </div>
+
+    <!-- Centrage du tableau contenant des liens vers différentes sections -->
+    <center>
+      <table> <!-- Un tableau pour organiser la disposition du contenu -->
+        <tr>
+          <!-- Chaque cellule d'en-tête contient un lien vers une page différente avec une image de fond pour chaque section -->
+          <th style="padding:150px" class="poeme">
+            <a href="https://a-dawg19.github.io/Exercise4.html" class="poeme2">Poème</a> <!-- Lien vers la page Poème avec un style spécifique -->
+          </th>
+          <th style="padding:150px" class="voyage">
+            <a href="https://a-dawg19.github.io/Voyage.html" class="voyage2">Voyage</a> <!-- Lien vers la page Voyage avec un style spécifique -->
+          </th>
+          <th style="padding:150px" class="biographie">
+            <a href="https://a-dawg19.github.io/Biographie.html" class="biographie2">Biographie</a> <!-- Lien vers la page Biographie avec un style spécifique -->
+          </th>
+        </tr>
+      </table>
+    </center>
   </body>
+
 </html>
