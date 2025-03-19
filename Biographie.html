@@ -1,70 +1,82 @@
-<!DOCTYPE html><!DOCTYPE html>
-<html style="background-color: #ffe3a0;>
-  
+<!DOCTYPE html>
+<html style="background-color: #ffe3a0;"> <!-- Définit la couleur de fond de la page HTML à une teinte jaune clair -->
+
   <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="styles.css">
-    <title>Mon site web</title>
+    <meta charset="UTF-8"> <!-- Spécifie l'encodage des caractères en UTF-8 pour supporter une large gamme de caractères -->
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers un fichier CSS externe pour le style de la page -->
+    <title>Mon site web</title> <!-- Titre de la page qui apparaîtra dans l'onglet du navigateur -->
   </head>
+
   <body>
-  <meta charset="UTF-8">
-  <ul>
-  <li><a href="https://a-dawg19.github.io/index.html">Page d’accueil</a></li>
-  <li><a href="https://a-dawg19.github.io/Exercise4.html">Poème</a></li>
-  <li><a href="https://a-dawg19.github.io/Voyage.html">Voyage parfait</a></li>
-  <li><a href="https://a-dawg19.github.io/Biographie.html">Biographie</a></li>
-</ul>
- <! -- https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black -->
-      <h1 style="font-size:60px">Biographie</h1>
-      <center>
- <table class="biotable" style="boder-collapse:collapse;">
-	        <tr>
-	          <th>
-	            <img class="skiphoto" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg" width="400"/>
-	         </th>
-	         <th>
-	         <h1>Mon histoire</h1>
-	           <p>Je m'appelle Anthony et je ski depuis plus de 10 ans, développant une véritable passion pour ce sport. 
-	           Lorsque je ne suis pas sur les pistes, j'aime passer du temps avec mon chien. Pendant mon temps libre, 
-	           j'aime aussi jouer du piano, ce qui me permet de me détendre et de m'exprimer de manière créative. 
-	           Un autre de mes passe-temps est le montage vidéo, qui me permet de combiner mon amour de la technologie 
-	           et de la narration pour créer quelque chose d'unique. Le ski, la musique et le montage vidéo sont autant 
-	           de moyens de canaliser ma créativité et de profiter de la vie.</p>
-	           </th>
-	        </tr>
-	      </table>
-	      </center>
-      <table class="styled-table"> <!-- code du tableau -->
-	   <thead>
-      <tr>
-        <th>Compétences</th>
-        <th>Maître</th>
-        <th>Expert</th>
-        <th>Compétent</th>
-        <th>Débutant</th>
-      </tr>
-      <tr>
-        <td>Mes compétences CSS</td>
-        <td></td>
-        <td></td>
-        <td>X</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Mes compétences HTML</td>
-        <td></td>
-        <td></td>
-        <td>X</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Mes compétences Javascript</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>X</td>
-      </tr>
-	   </thead>
-	  </table>
+    <meta charset="UTF-8"> <!-- Déclaration redondante de l'encodage des caractères (peut être supprimée, car déjà définie dans <head>) -->
+    
+    <!-- Barre de navigation avec des liens vers différentes pages du site -->
+    <ul>
+      <li><a href="https://a-dawg19.github.io/index.html">Page d’accueil</a></li> <!-- Lien vers la page d'accueil -->
+      <li><a href="https://a-dawg19.github.io/Exercise4.html">Poème</a></li> <!-- Lien vers la page Poème -->
+      <li><a href="https://a-dawg19.github.io/Voyage.html">Voyage parfait</a></li> <!-- Lien vers la page Voyage parfait -->
+      <li><a href="https://a-dawg19.github.io/Biographie.html">Biographie</a></li> <!-- Lien vers la page Biographie -->
+    </ul>
+
+    <!-- Titre principal de la page Biographie -->
+    <h1 style="font-size:60px">Biographie</h1>
+
+    <!-- Section centrée contenant un tableau avec une image et un texte -->
+    <center>
+      <table class="biotable" style="border-collapse:collapse;"> <!-- Tableau avec une classe 'biotable' et un style pour fusionner les bordures -->
+        <tr>
+          <!-- Première cellule du tableau : image -->
+          <th>
+            <img class="skiphoto" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg" width="400"/> <!-- Image représentant des vacances au ski -->
+          </th>
+          
+          <!-- Deuxième cellule du tableau : texte -->
+          <th>
+            <h1>Mon histoire</h1> <!-- Titre secondaire pour la section -->
+            <p>Je m'appelle Anthony et je ski depuis plus de 10 ans, développant une véritable passion pour ce sport. 
+            Lorsque je ne suis pas sur les pistes, j'aime passer du temps avec mon chien. Pendant mon temps libre, 
+            j'aime aussi jouer du piano, ce qui me permet de me détendre et de m'exprimer de manière créative. 
+            Un autre de mes passe-temps est le montage vidéo, qui me permet de combiner mon amour de la technologie 
+            et de la narration pour créer quelque chose d'unique. Le ski, la musique et le montage vidéo sont autant 
+            de moyens de canaliser ma créativité et de profiter de la vie.</p> <!-- Paragraphe décrivant l'histoire personnelle d'Anthony -->
+          </th>
+        </tr>
+      </table>
+    </center>
+
+    <!-- Tableau des compétences -->
+    <table class="styled-table"> <!-- Début d'un tableau stylisé avec la classe 'styled-table' -->
+      <thead>
+        <tr>
+          <th>Compétences</th> <!-- En-tête pour la colonne des compétences -->
+          <th>Maître</th> <!-- En-tête pour la colonne Maître -->
+          <th>Expert</th> <!-- En-tête pour la colonne Expert -->
+          <th>Compétent</th> <!-- En-tête pour la colonne Compétent -->
+          <th>Débutant</th> <!-- En-tête pour la colonne Débutant -->
+        </tr>
+        <tr>
+          <td>Mes compétences CSS</td> <!-- Compétence CSS -->
+          <td></td> <!-- Colonne vide -->
+          <td></td> <!-- Colonne vide -->
+          <td>X</td> <!-- Compétence marquée comme "Compétent" -->
+          <td></td> <!-- Colonne vide -->
+        </tr>
+        <tr>
+          <td>Mes compétences HTML</td> <!-- Compétence HTML -->
+          <td></td> <!-- Colonne vide -->
+          <td></td> <!-- Colonne vide -->
+          <td>X</td> <!-- Compétence marquée comme "Compétent" -->
+          <td></td> <!-- Colonne vide -->
+        </tr>
+        <tr>
+          <td>Mes compétences Javascript</td> <!-- Compétence Javascript -->
+          <td></td> <!-- Colonne vide -->
+          <td></td> <!-- Colonne vide -->
+          <td></td> <!-- Colonne vide -->
+          <td>X</td> <!-- Compétence marquée comme "Débutant" -->
+        </tr>
+      </thead>
+    </table> <!-- Fin du tableau des compétences -->
+
   </body>
 </html>
