@@ -16,15 +16,16 @@
   background-color: #ea8f06;
   border-radius: 7px;
 }
-  img {
-  border-radius: 100px;
-  Margin : 50px;
-  width: 30%;
-  background-color: #FFFFFF;
-  border: 5px Solid orange
-}
 li {
   float: left;
+}
+ img {
+  border-radius: 50px;
+  Margin : 50px;
+  width: 80%;
+  height: 80%;
+  background-color: #FFFFFF;
+  border: 5px Solid orange
 }
 li a {
   display: block;
@@ -119,4 +120,26 @@ a.retour {
   background-color: orange;
   border-radius: 4px;
   border: 5px solid orange
+}
+.italie {
+  font-size: 40px;
+  font-style: italic;
+  font-family: 'Segoe Script', cursive;
+  font-weight: bold;
+}
+.b1 {
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    border: 5px solid orange;
+    border-radius: 9px;
+    width: 40%;
+
+  font-size: 20px;
+}
+.lieux-table {
+  border-radius: 10px;
+  border: 5px solid orange;
+  background-color: #FFFFFF;
+  width: 40%;
+  font-size: 20px;
 }
