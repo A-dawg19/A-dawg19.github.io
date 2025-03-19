@@ -19,14 +19,6 @@
 li {
   float: left;
 }
- img {
-  border-radius: 50px;
-  Margin : 50px;
-  width: 80%;
-  height: 80%;
-  background-color: #FFFFFF;
-  border: 5px Solid orange
-}
 li a {
   display: block;
   color: white;
