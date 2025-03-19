@@ -16,12 +16,12 @@ html {
 
 /* Personnalisation de la liste ul */
 ul {
-  list-style-type: none; /* Supprime les puces */
-  margin: 10px; /* Espace extérieur */
-  padding: 0; /* Retire l'espace intérieur */
-  overflow: hidden; /* Empêche le débordement */
-  background-color: #ea8f06; /* Fond orange */
-  border-radius: 7px; /* Coins arrondis */
+  list-style-type: none;
+  margin: 10px; 
+  padding: 0; 
+  overflow: hidden;
+  background-color: #ea8f06; 
+  border-radius: 7px; 
 }
 
 /* Style les éléments li dans la liste en flottant à gauche */
@@ -32,27 +32,27 @@ li {
 /* Personnalisation des liens dans les éléments li */
 li a {
   display: block; /* Transforme le lien en bloc pour permettre le padding */
-  color: white; /* Texte blanc */
-  text-align: center; /* Centre le texte */
-  padding: 14px 16px; /* Espaces autour du texte */
-  text-decoration: none; /* Supprime le soulignement */
+  color: white; 
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
 }
 
 /* Style au survol d'un lien */
 li a:hover {
-  background-color: #6f5600; /* Fond sombre au survol */
+  background-color: #6f5600; 
   transform: scale(1.1); /* Agrandit le lien */
   transition: 0.7s; /* Animation fluide */
-  border-radius: 11px; /* Coins arrondis au survol */
+  border-radius: 11px; 
 }
 
 /* Classe 'biographie' avec une image de fond et un effet d'ombre */
 .biographie {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysYIWmaU5_GPNmjlik75Ds0ObIixoHYtjgg&s");
-  background-size: cover; /* Couvre toute la zone disponible */
-  border-radius: 90px; /* Coins très arrondis */
-  font-size: 30px; /* Taille de police */
-  box-shadow: 5px 10px 30px black; /* Ombre portée */
+  background-size: cover; 
+  border-radius: 90px; 
+  font-size: 30px; 
+  box-shadow: 5px 10px 30px black; 
 }
 
 /* Classe 'voyage' avec une image de fond spécifique */
