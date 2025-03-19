@@ -191,7 +191,7 @@ a.retour {
 
 /* Classe 'biotable' pour un tableau avec une largeur et une bordure orange */
 .biotable {
-  width: 45%;
+  width: 55%;
   background-color: #FFFFFF;
   border-radius: 29px;
   border: 5px solid orange;
