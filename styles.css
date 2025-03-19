@@ -135,3 +135,8 @@ a.retour {
   width: 40%;
   font-size: 20px;
 }
+.Hugo {
+  border: 5px solid orange;
+  border-radius: 10px;
+  margin: 40px;
+}
