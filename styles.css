@@ -32,10 +32,7 @@ li a:hover {
   transition: 0.7s;
   border-radius: 11px;
 }
- th:hover {
-  transform: scale(1.1);
-  transition: 0.7s;
-}
+
     .biographie {
 	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysYIWmaU5_GPNmjlik75Ds0ObIixoHYtjgg&s");
 	background-size:cover;
@@ -145,4 +142,39 @@ a.retour {
   border-radius: 10px;
   margin: 40px;
 }
+.biotable {
+  width: 45%;
+  background-color: #FFFFFF;
+  border-radius: 29px;
+  border: 5px solid orange
+}
+.skiphoto {
+  border-radius: 13px;
+  border: 5px solid orange
+}
+
+.styled-table {
+    width: 40%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffb74a;
+    border-radius: 19px;
+    overflow: hidden;
+}
+.styled-table th {
+    background-color: #ea8f06;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+} /* CSS pour le table dans le page Biographie */
+.styled-table td {
+  color: white;
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2px solid #ea8f06;
+}
+.styled-table tr:hover {
+    background-color: #ffe1b4;
+    transition: 0.3s;
 }
